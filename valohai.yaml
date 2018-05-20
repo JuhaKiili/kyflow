@@ -1,6 +1,4 @@
 - step:
-    name: Environment check
-    image: busybox
-    command:
-      - printenv
-      - python --version
+    name: Hardware check
+    image: tensorflow/tensorflow:0.12.1-devel-gpu
+    command: nvidia-smi

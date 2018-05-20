@@ -1,5 +1,5 @@
 - step:
-    name: Hardware check
+    name: Test flow
     image: tensorflow/tensorflow:1.8.0-devel-gpu-py3
     command: python flow
 

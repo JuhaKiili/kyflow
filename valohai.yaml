@@ -1,7 +1,11 @@
 - step:
     name: Test flow
     image: tensorflow/tensorflow:1.8.0-devel-gpu-py3
-    command: python flow
+    command:
+      - apt-get update
+      - apt-get install libsm6
+      - pip3 install opencv-python 
+      - python flow
 
 - step:
     name: Hardware check

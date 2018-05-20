@@ -1,0 +1,1 @@
+python d:\ws\darkflow\flow --gpu 0.75 --labels d:\ws\darkflow\ky\labels.txt --model d:\ws\darkflow\ky\cfg\ky.cfg --load -1 --json --imgdir d:\ws\darkflow\ky\img --threshold 0.2

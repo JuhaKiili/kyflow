@@ -1,5 +1,10 @@
 - step:
     name: Hardware check
+    image: tensorflow/tensorflow:1.8.0-devel-gpu-py3
+    command: python flow
+
+- step:
+    name: Hardware check
     image: valohai/darknet:62b781a-cuda8.0-cudnn5-devel-ubuntu16.04
     command: nvidia-smi
 

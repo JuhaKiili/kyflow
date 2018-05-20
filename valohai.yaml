@@ -1,0 +1,6 @@
+- step:
+    name: Environment check
+    image: busybox
+    command:
+      - printenv
+      - python --version
